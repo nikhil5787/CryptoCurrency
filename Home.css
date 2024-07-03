@@ -1,0 +1,132 @@
+.home{
+    padding: 0px 10px;
+    padding-bottom: 100px;
+
+
+}
+
+.hero{
+    margin: 90px  auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  
+}
+
+.hero h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.hero p{
+     width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e3e3e3;
+    line-height: 1.5;
+}
+
+.hero form{
+    padding: 15px;
+    width: 30%;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 10px;
+
+}
+
+.hero input{
+    flex: 1;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero button{
+    width: 100px;
+    padding: 10px;
+    color:white ;
+    background-color:lightcoral;
+    border: 1px solid black;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  
+
+}
+
+.table{
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgba(222, 184, 135, 0.541)
+   
+
+
+}
+
+.table-layout{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   
+
+}
+.images{
+    width: 30px;
+    height: 30px;
+}
+
+.table-layout div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-layout:last-child{
+    border: none;
+}
+
+.green{
+    color: green;
+    align-items: center;
+}
+.red{
+    color: red;
+    align-items: center;
+}
+
+.pagination{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pagination span{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination_Selected{
+    background-color: rgba(128, 128, 128, 0.274);
+}

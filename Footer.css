@@ -1,0 +1,12 @@
+.footer{
+    color: white;
+    font-family:monospace;
+  border-top: 1px solid white;
+  max-width: 60%;
+  margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
